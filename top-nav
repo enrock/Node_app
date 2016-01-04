@@ -1,0 +1,19 @@
+ 
+ div.navbar.navbar-inverse.navbar-fixed-top
+      div.navbar-inner
+        div.container-fluid
+          a(data-toggle="collapse",data-target=".nav-collapse").btn.btn-navbar
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a(href='#').brand Brand
+          div.nav-collapse.collapse
+            p.navbar-text.pull-right Logged in as 
+              a(href='#').navbar-link Username
+            ul.nav
+              li.active
+                a(href='#') Home
+              li
+                a(href='#') About
+              li
+                a(href='#') Contact

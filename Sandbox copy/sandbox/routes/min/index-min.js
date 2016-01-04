@@ -1,0 +1,1 @@
+var express=require("express"),router=express.Router();router.get("/",function(e,r,o){r.render("index",{title:"Express"})}),router.get("/helloworld",function(e,r){r.render("helloworld",{title:"Hello, World!"})}),router.get("/dashboard",function(e,r){r.render("dashboard",{title:"Dashboard"})}),module.exports=router;
